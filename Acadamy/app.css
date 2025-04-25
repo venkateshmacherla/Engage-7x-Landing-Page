@@ -1,0 +1,383 @@
+
+body {
+    font-family: sans-serif;
+}
+
+
+.banner {
+    position: relative; 
+    margin-top: 0px !important;
+    padding-left: 0px;
+}
+
+.banner-button {
+    position: absolute;
+    bottom: 70px;
+   
+}
+ 
+.header-logo {
+    width: 180px;
+    height: 40px;
+}
+
+#header .header-nav.header-nav-links nav>ul>li.dropdown.open>.dropdown-menu,
+#header .header-nav.header-nav-links nav>ul>li.dropdown.accessibility-open>.dropdown-menu,
+#header .header-nav.header-nav-links nav>ul>li.dropdown:hover>.dropdown-menu,
+#header .header-nav.header-nav-line nav>ul>li.dropdown.open>.dropdown-menu,
+#header .header-nav.header-nav-line nav>ul>li.dropdown.accessibility-open>.dropdown-menu,
+#header .header-nav.header-nav-line nav>ul>li.dropdown:hover>.dropdown-menu {
+    margin-top: -24px !important;
+    border-top-color: #2D81F7 !important;
+}
+
+/* Media query for Display Mobile */
+@media (max-width: 576px) {
+    .desktop-banner {
+        display: none;
+    }
+
+    .mobile-banner {
+        display: block;
+    }
+    .banner {
+        padding-left: 0px;
+    }
+    .banner-img {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+
+    .banner-button {
+        position: absolute;
+        transform: translate(1%, 1%);
+        text-align: center;
+    }
+
+    .header-logo {
+        transform: translateX(10%);
+        width: 150px;
+        height: 60px;
+    }
+
+    .offer-money {
+        font-size: 14px;
+    }
+    
+    .video-heading {
+        text-align: center;
+        margin-left: 5px;
+    }
+    .wpb_video_wrapper {
+        margin-bottom: 10px;
+    }
+    .video-content {
+        padding: 12px !important;
+    }
+    .reviews {
+        padding: 12px !important;
+    }
+    .faq-section {
+        padding: 10px !important;
+    }
+    .faq-heading-section {
+        padding-left: 13px !important;
+        padding-bottom: 10px !important;
+    }
+    .checkbox-section {
+        margin: 0px !important;
+    }
+    
+        
+}
+
+
+/* Media query for Display desktop */
+@media (min-width: 577px) {
+    .desktop-banner {
+        display: block;
+    }
+
+    .mobile-banner {
+        display: none;
+    }
+    .wpb_video_wrapper {
+        margin-bottom: 10px;
+    }
+}
+
+/*
+@media (max-width: 576px) {
+    .banner-img {
+        width: 100%;
+        height: 100vh;
+        margin-left: 0px;
+        margin: 0px;
+    }
+
+    .banner-section {
+        margin-top: 10px;
+    }
+
+
+    .header-logo {
+       width: 100px;
+       height: auto;
+       margin-left: 5px;
+   }
+    .about-us-img {
+        width: 270px;
+        height: 230px;
+        align-items: center;
+    }
+}*/
+
+ @media (max-width:767px) {
+     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .banner-img {
+        width: 100%;
+        height: 800%;
+        margin-left: 0px;
+        margin: 0px;
+    }
+    .banner-section {
+        margin-top: 10px;
+    }
+    .banner-button {
+        position: absolute;
+        bottom: 30px;
+        left: 40px;  
+    }
+    .header-logo {
+       width: 100px;
+       height: auto;
+   }
+   #header .header-nav.header-nav-links nav>ul>li.dropdown.open>.dropdown-menu,
+   #header .header-nav.header-nav-links nav>ul>li.dropdown.accessibility-open>.dropdown-menu,
+   #header .header-nav.header-nav-links nav>ul>li.dropdown:hover>.dropdown-menu,
+   #header .header-nav.header-nav-line nav>ul>li.dropdown.open>.dropdown-menu,
+   #header .header-nav.header-nav-line nav>ul>li.dropdown.accessibility-open>.dropdown-menu,
+   #header .header-nav.header-nav-line nav>ul>li.dropdown:hover>.dropdown-menu {
+       margin-top: 0px;
+   }
+ }
+
+
+ @media (min-width:768px) {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .banner-img {
+        width: 100%;
+        height: 600%;
+    }
+    .banner-button {
+        position: absolute;
+        bottom: 40px;
+        left: 50px;  
+    }
+    
+ }
+
+ @media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */
+    .banner-img {
+        width: 100%;
+        height: 250%;
+    }
+    .banner-button {
+        position: absolute;
+        bottom: 70px;
+        left: 65px;  
+    }
+ }
+
+ .form-check {
+     min-height: 50px;
+     /* Set a minimum height */
+     padding: 0 15px;
+     /* Add padding for better appearance */
+ }
+
+
+
+ .form-check-input:checked {
+    background-color: #4870f1;
+ }
+
+ @media (max-width: 768px) {
+
+     /* Adjust the minimum height for smaller screens */
+     .form-check {
+         min-height: 40px;
+         /* You can adjust this value as needed */
+     }
+
+     .form-check-input {
+         width: 20px;
+         height: 20px;
+     }
+ }
+
+ .checkbox-section {
+    margin: 42px;
+ }
+
+@media (max-width: 767px) {
+    
+    .video-content {
+        margin-right: 0 !important;
+        
+    }
+    
+}
+.certificate-carousel {
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    .owl-carousel .owl-item img {
+        min-width: 100%;
+        /* Set the minimum width to 100% */
+        height: auto;
+        /* Let the height adjust accordingly */
+    }
+}
+
+.owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav button[class*="owl-"] {
+    background-color: #2D81F7;
+    border-color: var(--primary) var(--primary) var(--primary-300);
+    color: var(--primary-inverse);
+}
+
+
+.review-adtl-icon {
+    position: absolute;
+    right: 30px; /* Adjust as needed */
+    top: 30px; /* Adjust as needed */
+    width: 35px;
+}
+
+
+/* Adjust review icon margin for smaller screens */
+@media (max-width: 767px) {
+    .review-adtl-icon {
+        right: 20px; /* Adjust as needed for smaller screens */
+        top: 20px; /* Adjust as needed for smaller screens */
+        width: 35px;
+    }
+}
+
+
+.testimonial-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+   
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Add ellipsis for overflow */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition */
+}
+
+.testimonial-content.expanded {
+    -webkit-line-clamp: unset;
+    /* Show full content on expansion */
+}
+
+.view-more-btn.active {
+    text-decoration: none !important;
+    /* Visually indicate active state */
+}
+
+
+/* CSS for mobile responsiveness */
+@media (max-width: 768px) {
+    .form-check {
+        height: auto !important;
+        /* Reset height */
+        display: inline-block;
+        /* Display inline */
+        margin-right: 10px;
+        /* Add some space between checkboxes */
+        margin-bottom: 10px;
+        /* Add some space between checkboxes */
+        width: auto;
+    }
+
+    .form-check-label {
+        margin-left: 10px !important;
+        /* Adjust label margin */
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner {
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+.accordion {
+    border-radius: 20px;
+    /* Adjust the value as needed */
+    overflow: hidden;
+    /* Ensure content does not protrude from rounded corners */
+}
+
+.card {
+    border-radius: 20px;
+    /* Adjust the value as needed */
+    overflow: hidden;
+    /* Ensure content does not protrude from rounded corners */
+}
+
+.accordion .card-header {
+    border: none;
+}
+
+.accordion .card-header:focus {
+    outline: none;
+}
+
+.view-more-container {
+    cursor: pointer;
+}
+
+
+.video-section {
+    margin: 3px;
+}
+.video-content {
+    padding: 60px;
+    
+}
+
+.reviews {
+    padding: 50px;
+}
+
+.faq-section {
+    padding: 50px;
+}
+
+.text-color-hover-mail:hover {
+    color: #2D81F7;
+}
